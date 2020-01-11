@@ -1,0 +1,21 @@
+{
+    "name": "xiaolizi/miaoyouquan",
+    "description": "喵有券接口",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "<=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaolizi",
+            "email": "hecunwei@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Miao\\": "src/"
+        }
+    }
+}
